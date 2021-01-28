@@ -1,4 +1,4 @@
-from randoms import randint
+import randoms
 
 list1 = ['.py', '.js', '.rb', '.java', '.c']
 list2 = ['python', 'Javascript', 'ruby', 'java', 'c']
