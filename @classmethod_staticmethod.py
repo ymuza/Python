@@ -19,8 +19,6 @@ class Student:
         print("this is a student class")
 
 
-
-
 s1 = Student(34, 67, 32)
 s2 = Student(89, 32, 142)
     

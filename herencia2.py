@@ -3,7 +3,7 @@ class Student:
     def __init__(self, first, last, courses = None):
         self.first_name = first
         self.last_name = last
-        if courses == None:
+        if courses is None:
             self.courses = []
         else:
             self.courses = courses
