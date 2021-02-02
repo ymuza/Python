@@ -1,9 +1,9 @@
 
-num_1="10"
-num_2="20"
+num_1 = "10"
+num_2 = "20"
 
 
-result=int("10")+int("10") #Type Casting: convierte strings a enteros o floats (en este caso enteros).
+result = int("10")+int("10") #Type Casting: convierte strings a enteros o floats (en este caso enteros).
 print(result)
 
 print("\n")
@@ -14,7 +14,7 @@ print("Enter a number: ")
 num1 = float(input())
 print("Enter a second number: ")
 num2 = float(input())
-print ("select an operation (1-sum, 2-subst, 3-multip, 4-div): ")
+print("select an operation (1-sum, 2-subst, 3-multip, 4-div): ")
 op = int(input())
 
 
