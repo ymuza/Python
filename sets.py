@@ -1,5 +1,6 @@
-#los sets parecen diccionarios, pero no tienen keys, y estan separados por comas.LOS SETS NO ACEPTAN VALORES DUPLICADOS, por lo que eliminan
-#automaticamente aquellos DUPLICADOS.
+# los sets parecen diccionarios, pero no tienen keys, y estan separados por comas.
+# LOS SETS NO ACEPTAN VALORES DUPLICADOS,
+# por lo que eliminan automaticamente aquellos DUPLICADOS.
 
 objeto_cualquiera = "custom object"
 my_data_type = {1, 2, False, 4, "yamil", objeto_cualquiera, 5.0, 1}

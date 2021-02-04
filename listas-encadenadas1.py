@@ -32,11 +32,11 @@ class LinkedList:
         return "[]"
 
     def amount_of_nodes(self):
-        amount=0
-        scroller=self.root
+        amount = 0
+        scroller = self.root
         while scroller is not None:
-            scroller=scroller.next
-            amount=amount+1
+            scroller = scroller.next
+            amount = amount+1
 
         print(amount)
 

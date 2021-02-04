@@ -4,4 +4,9 @@ def func1():
     x += 3
     print(x)
 
+def func2():
+    print(x)
+
+
 func1()
+func2()
