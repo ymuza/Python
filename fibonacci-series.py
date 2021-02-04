@@ -12,3 +12,4 @@ else:
         print(next, end=" ")
         f = s
         s = next
+

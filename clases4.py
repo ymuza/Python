@@ -21,6 +21,12 @@ class Cars:
         else:
             print("you need to perform maintenance.")
 
+    @staticmethod
+    def taxes():
+        taxChecker = 10
+        if taxChecker <= 10:
+            print("The car doesn't pay taxes.")
+
 
 
 
@@ -29,7 +35,7 @@ c = Cars(input("type the make: "), input("type the year: "), input("type the eng
 c.service()
 
 c.usage()
-
+c.taxes()
 
 
 
